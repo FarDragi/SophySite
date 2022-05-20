@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import "../styles/colors.css";
 import type { AppProps } from "next/app";
 import { NextPage } from "next";
-import { ReactElement, ReactNode, useEffect, useState } from "react";
+import { ReactElement, ReactNode } from "react";
 import { DateTime } from "luxon";
 
 export type NextPageWithSubLayout = NextPage & {

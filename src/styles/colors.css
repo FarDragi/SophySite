@@ -1,9 +1,9 @@
 .night {
   --primary-color: #442d7a;
-  background-color: var(--primary-color);
+  --secondary-color: #f7f7f7;
 }
 
 .day {
   --primary-color: #f7f7f7;
-  background-color: var(--primary-color);
+  --secondary-color: #442d7a;
 }

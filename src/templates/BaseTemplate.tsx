@@ -1,4 +1,5 @@
 import Head from "next/head";
+import NavBar from "../components/NavBar";
 import { NextTemplate } from "./_templates";
 
 export interface BaseTemplateProps {
@@ -11,7 +12,8 @@ const BaseTemplate: NextTemplate<BaseTemplateProps> = (props) => {
       <Head>
         <title>{props.title ? props.title + " | Sophy" : "Sophy"}</title>
       </Head>
-      {props.children}
+      <NavBar />
+      <div>{props.children}</div>
     </div>
   );
 };
